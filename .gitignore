@@ -1,0 +1,48 @@
+# ── Datasets ──────────────────────────────────────────────
+*.csv
+
+# ── Saved Model & Checkpoints ─────────────────────────────
+saved_summary_model/
+results/
+
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual Environments ──────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+
+# ── Environment Variables ─────────────────────────────────
+.env
+.env.local
+
+# ── Jupyter ───────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── IDEs & Editors ────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS Files ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────
+*.log
+logs/
